@@ -1,0 +1,337 @@
+.logo-color,
+.offcanvas-header img {
+  max-width: 150px !important;
+}
+
+.user-pages .logo-color-white {
+  max-width: 150px !important;
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Tooltip */
+/* Style the container */
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the text that triggers the tooltip */
+.text {
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Style the tooltip */
+.tooltip {
+  display: none !important;
+  position: absolute !important;
+  background-color: #333 !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+  padding: 10px !important;
+  z-index: 1 !important;
+  bottom: 100% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  opacity: 0 !important;
+  transition: all 0.5s ease !important;
+}
+
+/* Show the tooltip on hover */
+.tooltip-container:hover .tooltip {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* ********************** */
+/* Address Auto complete */
+/* ********************** */
+
+#autocomplete-container .input-container {
+  position: relative;
+}
+
+#autocomplete-container .autocomplete-items {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  z-index: 99;
+  top: calc(100% + 5px);
+  left: 0;
+  right: 0;
+}
+
+#autocomplete-container .autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#autocomplete-container .autocomplete-items div:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#autocomplete-container .autocomplete-items .autocomplete-active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#autocomplete-container .clear-button {
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+
+  position: absolute;
+  right: 5px;
+  top: 0;
+
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+#autocomplete-container .clear-button.visible {
+  display: flex;
+}
+
+/* Logo */
+#main-wrapper .small-logo {
+  display: none;
+}
+
+/* Super Admin Datatable */
+#scroll_hor_length {
+  width: auto;
+  max-width: fit-content;
+  display: inline-block;
+}
+#scroll_hor_filter {
+  width: auto;
+  max-width: fit-content;
+  display: inline-block;
+  float: right;
+}
+
+@media (max-width: 550px) {
+  #scroll_hor_length {
+    float: left;
+  }
+  #scroll_hor_filter {
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dashboard-container-width {
+    max-width: calc(100% - 100px) !important;
+  }
+}
+
+.user_icon_wrapper {
+  width: 35px;
+  background: #dbdbdb;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300px;
+}
+
+/* User Fields */
+#userinfoform .file_single .note {
+  font-size: 12px;
+  color: #737373;
+  font-weight: 400;
+  font-family: poppins;
+}
+
+.application_submitted .card-pending {
+  background: #ffffd1 !important;
+}
+.application_submitted .card-success {
+  background: #dfffdf !important;
+}
+.application_submitted .card-rejected {
+  background: #ffe1e1 !important;
+}
+#dropdownMenuButton {
+  width: 100% !important;
+}
+
+/* Logout BTN for Both Dashboards */
+#sidebarnav {
+  position: relative;
+  height: 70vh;
+}
+#sidebarnav .logout_btn {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+#sidebarnav .logout_btn a {
+  background-color: #ff6e35 !important;
+  color: white !important;
+  transition: all 0.3s ease;
+}
+#sidebarnav .logout_btn a:hover {
+  background-color: #d73d00 !important;
+}
+
+/* User Action Buttons */
+.user_action_buttons span:hover {
+  cursor: pointer;
+}
+.user_action_buttons span.bg-danger:hover {
+  background-color: #ce5c3e !important;
+}
+
+.hero-color{
+    color:#1859f1;
+}
+
+
+
+/* Custom CSS */
+
+/* Header */
+.site_btn_color {
+  background-color: black;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+/* wrapper */
+.text-wrap {
+  display: inline-block;
+  height: 1em;
+  overflow: hidden;
+}
+
+/* texts */
+.text-wrap span {
+  display: block;
+  line-height: 1.2;
+  transition: transform 0.4s ease;
+  color: white;
+}
+
+/* hover animation */
+.site_btn_color:hover .text-wrap span {
+  transform: translateY(-100%);
+}
+
+.header_nav_link {
+  color: rgb(0, 0, 0);
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.header_nav_link:hover {
+  border-bottom: 2px solid black;
+  color: rgb(0, 0, 0);
+}
+
+.header_menu {
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 24px;
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
+}
+
+.section-subtitle-icon {
+  background-color: black;
+  filter: blur(2px);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+/* Marquee Section */
+
+.marquee-section {
+  padding: 60px 0;
+}
+
+/* fade edges like premium websites */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+
+/* track */
+.track {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: max-content;
+  background-color: #f5f5f5;
+}
+
+/* items */
+.item {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 0.5px;
+}
+
+.dot {
+  color: #ff3b3b;
+  font-size: 18px;
+}
+
+/* animations */
+.marquee-left .track {
+  animation: moveLeft 18s linear infinite;
+}
+
+.marquee-right .track {
+  animation: moveRight 18s linear infinite;
+}
+
+/* LEFT → RIGHT */
+@keyframes moveLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* RIGHT → LEFT */
+@keyframes moveRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* spacing between rows */
+.marquee + .marquee {
+  margin-top: 25px;
+}
