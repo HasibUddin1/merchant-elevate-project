@@ -183,11 +183,9 @@
   background-color: #ce5c3e !important;
 }
 
-.hero-color{
-    color:#1859f1;
+.hero-color {
+  color: #1859f1;
 }
-
-
 
 /* Custom CSS */
 
@@ -255,7 +253,7 @@
 /* Marquee Section */
 
 .marquee-section {
-  padding: 60px 0;
+  padding: 100px 0;
 }
 
 /* fade edges like premium websites */
@@ -334,4 +332,68 @@
 /* spacing between rows */
 .marquee + .marquee {
   margin-top: 25px;
+}
+
+/* Who We Are Section */
+
+.who_we_are_heading {
+  font-size: 54px;
+}
+
+.circle-box {
+  float: right;
+  border-bottom: 1px solid #222;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  text-decoration: none;
+  position: absolute;
+  inset: 30px 30px auto auto;
+  z-index: 1;
+}
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.circle-inner {
+  border: 1px solid black;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  display: flex;
+}
+
+.circle-text {
+  background-color: white;
+  color: black;
+  line-height: var(--_line-height---medium);
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+}
+
+.circle-box-icon {
+  
+  color: black;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  margin-left: -12px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }

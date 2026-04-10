@@ -137,7 +137,37 @@ if (session_status() == PHP_SESSION_NONE) {
             </div>
 
         </section>
-         
+
+        <!-- Who we are section -->
+
+        <section class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="section-subtitle-icon"></div>
+                        <p class="mb-0">Who We Are</p>
+                    </div>
+                    <h1 class="who_we_are_heading mb-3">Driving Your Growth Through Digital Advertising</h1>
+                    <p>We design and execute data-driven digital advertising strategies that don’t just generate clicks—but real, measurable business growth. From audience targeting to creative optimization, every step is focused on maximizing your return on investment and scaling your brand efficiently.</p>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <img src="assets/img/who_we_are_img.jpg" alt="who we are image" class="img-fluid rounded-custom" />
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 position-relative">
+                    <a href="#Service-Section" class="circle-box w-inline-block">
+                        <div style="transform: translate3d(0px, -10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="circle-inner">
+                            <div style="color: rgb(10, 10, 10);" class="circle-box-icon">
+                                <img width="30" src="assets/img/down-left.png" alt="Service Icon">
+                            </div>
+                        </div>
+                        <div class="circle-text">Explore<br>Service</div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
 
         <!--customers section start-->
         <section class="promo-section ptb-120 bg-light-subtle">
