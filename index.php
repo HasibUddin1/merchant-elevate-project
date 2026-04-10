@@ -142,7 +142,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         <section class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-5">
+                <div class="col-xl-5 col-lg-5" data-aos="fade-right" data-aos-delay="50">
                     <div class="d-flex align-items-center gap-3 mb-3">
                         <div class="section-subtitle-icon"></div>
                         <p class="mb-0">Who We Are</p>
@@ -150,12 +150,12 @@ if (session_status() == PHP_SESSION_NONE) {
                     <h1 class="who_we_are_heading mb-3">Driving Your Growth Through Digital Advertising</h1>
                     <p class="text-black who_we_are_description">We design and execute data-driven digital advertising strategies that don’t just generate clicks—but real, measurable business growth. From audience targeting to creative optimization, every step is focused on maximizing your return on investment and scaling your brand efficiently.</p>
                 </div>
-                <div class="col-xl-4 col-lg-4">
+                <div class="col-xl-4 col-lg-4" data-aos="fade-left" data-aos-delay="200">
                     <img src="assets/img/who_we_are_img.jpg" alt="who we are image" class="img-fluid rounded-custom" />
 
                 </div>
 
-                <div class="col-xl-3 col-lg-3 position-relative">
+                <div class="col-xl-3 col-lg-3 position-relative" data-aos="fade-left" data-aos-delay="200">
                     <a href="#services" class="circle-box w-inline-block">
                         <div class="circle-inner">
                             <div style="color: rgb(10, 10, 10);" class="circle-box-icon">
