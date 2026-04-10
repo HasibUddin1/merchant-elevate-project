@@ -340,6 +340,10 @@
   font-size: 54px;
 }
 
+.who_we_are_description{
+  font-size: 18px;
+}
+
 .circle-box {
   float: right;
   border-bottom: 1px solid #222;
@@ -383,7 +387,6 @@
 }
 
 .circle-box-icon {
-  
   color: black;
   font-size: 24px;
   justify-content: center;
@@ -396,4 +399,17 @@
   position: absolute;
   top: 50%;
   left: 50%;
+}
+
+.circle-inner {
+  transform: translate3d(0px, -10px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+
+  transition: transform 0.4s ease; /* smooth animation */
+}
+
+.circle-inner:hover {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
