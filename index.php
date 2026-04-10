@@ -164,8 +164,11 @@ if (session_status() == PHP_SESSION_NONE) {
                         </div>
                         <div class="circle-text">Explore<br>Service</div>
                     </a>
+                    <div class="position-absolute rotate-star" style="bottom: 65%; left: 20%;">
+                        <img width="80" src="assets/img/star.png" alt="who we are image" class="img-fluid rounded-custom" />
+                    </div>
                     <div class="position-absolute" style="bottom: 0;">
-                        <img src="assets/img/who_we_are_img2.jpg"  alt="who we are image" class="img-fluid rounded-custom" / >
+                        <img src="assets/img/who_we_are_img2.jpg" alt="who we are image" class="img-fluid rounded-custom" />
                     </div>
 
                 </div>
