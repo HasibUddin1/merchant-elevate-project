@@ -40,7 +40,7 @@ if (session_status() == PHP_SESSION_NONE) {
                                 <div class="section-subtitle-icon">
                                 </div>
                                 <div>
-                                    <p class="mb-0">We Create Brands That Convert</p>
+                                    <p class="mb-0 section-subtitle">We Create Brands That Convert</p>
                                 </div>
                             </div>
                             <h1 class="fw-bold display-5" data-aos="fade-up" data-aos-delay="300">
@@ -93,7 +93,8 @@ if (session_status() == PHP_SESSION_NONE) {
         <section class="marquee-section">
 
             <!-- TOP ROW (LEFT → RIGHT) -->
-            <div class="marquee marquee-left">
+             <!-- TODO: Implementing cross animation later -->
+            <div class="marquee marquee-left" style="display: none;">
                 <div class="track">
                     <div class="item">Performance Marketing</div>
                     <div class="dot">•</div>
@@ -145,7 +146,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <div class="col-xl-5 col-lg-5" data-aos="fade-right" data-aos-delay="50">
                     <div class="d-flex align-items-center gap-3 mb-3">
                         <div class="section-subtitle-icon"></div>
-                        <p class="mb-0">Who We Are</p>
+                        <p class="mb-0 section-subtitle">Who We Are</p>
                     </div>
                     <h1 class="who_we_are_heading mb-3">Driving Your Growth Through Digital Advertising</h1>
                     <p class="text-black who_we_are_description">We design and execute data-driven digital advertising strategies that don’t just generate clicks—but real, measurable business growth. From audience targeting to creative optimization, every step is focused on maximizing your return on investment and scaling your brand efficiently.</p>
@@ -172,6 +173,28 @@ if (session_status() == PHP_SESSION_NONE) {
                     </div>
 
                 </div>
+            </div>
+        </section>
+
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+
+            <div class="d-flex align-items-center gap-3 mb-3 justify-content-center">
+                <div class="section-subtitle-icon"></div>
+                <p class="mb-0 section-subtitle" data-aos="fade-up">What We Focus On</p>
+            </div>
+
+            <h1 class="text-center services-title" data-aos="fade-up">Explore Our Full Range of <br> Digital Services</h1>
+            <p class="text-center services-description" data-aos="fade-up">From ads to design, we craft complete marketing solutions focused on <br> attracting leads, boosting conversions, and scaling your business.</p>
+
+            <div class="cards-section">
+
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+                <div class="card">Card 3</div>
+                <div class="card">Card 4</div>
+
             </div>
         </section>
 

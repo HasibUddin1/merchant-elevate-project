@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .logo-color,
 .offcanvas-header img {
   max-width: 150px !important;
@@ -340,7 +344,7 @@
   font-size: 54px;
 }
 
-.who_we_are_description{
+.who_we_are_description {
   font-size: 18px;
 }
 
@@ -426,4 +430,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Services Section */
+.section-subtitle{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.services-section{
+  background-color: #f5f5f5;
+  padding-top: 150px;
+}
+
+.services-title{
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.services-description{
+  font-size: 18px;
+  color: #050505;
+}
+
+/* container */
+.cards-section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+/* card */
+.card {
+  position: sticky;
+  top: 100px; /* navbar থাকলে adjust করো */
+
+  width: 70%;
+  margin: 0 auto 100px auto;
+  height: 260px;
+
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+/* stacking order */
+.card:nth-child(1) {
+  z-index: 1;
+}
+.card:nth-child(2) {
+  z-index: 2;
+}
+.card:nth-child(3) {
+  z-index: 3;
+}
+.card:nth-child(4) {
+  z-index: 4;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
 }
