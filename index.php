@@ -28,6 +28,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <?php include_once "includes/nav.php"; ?>
 
         <!--hero section start-->
+        <!-- TODO: Implementing Slider on Hero Images -->
         <section class="hero-section ptb-40" style="
           background: url('assets/img/shape/dot-dot-wave-shape.svg') no-repeat
             bottom center;
@@ -92,48 +93,119 @@ if (session_status() == PHP_SESSION_NONE) {
         <!-- Marquee Section -->
         <section class="marquee-section">
 
-            <!-- TOP ROW (LEFT → RIGHT) -->
-             <!-- TODO: Implementing cross animation later -->
-            <div class="marquee marquee-left" style="display: none;">
+            <!-- TOP ROW -->
+            <div class="marquee marquee-left">
                 <div class="track">
                     <div class="item">Performance Marketing</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Results, Not Promises</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Data-Driven Ads</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Growth Focused Campaigns</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
 
-                    <!-- duplicate for seamless loop -->
+                    <!-- duplicate -->
                     <div class="item">Performance Marketing</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Results, Not Promises</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Data-Driven Ads</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Growth Focused Campaigns</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+
+                    <!-- duplicate -->
+                    <div class="item">Performance Marketing</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+                    <div class="item">Results, Not Promises</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+                    <div class="item">Data-Driven Ads</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+                    <div class="item">Growth Focused Campaigns</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                 </div>
             </div>
 
-            <!-- BOTTOM ROW (RIGHT → LEFT) -->
+            <!-- BOTTOM ROW -->
             <div class="marquee marquee-right">
                 <div class="track">
                     <div class="item">Creative That Converts</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">ROI Focused Strategy</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">High Performance Funnels</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Scaling Brands Fast</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
 
                     <!-- duplicate -->
                     <div class="item">Creative That Converts</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">ROI Focused Strategy</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">High Performance Funnels</div>
-                    <div class="dot">•</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                     <div class="item">Scaling Brands Fast</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+
+                    <!-- duplicate -->
+                    <div class="item">Creative That Converts</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+                    <div class="item">ROI Focused Strategy</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+                    <div class="item">High Performance Funnels</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
+                    <div class="item">Scaling Brands Fast</div>
+                    <div class="dot">
+                        <img width="22" height="22" src="assets/img/dot_star.png" alt="Dot Icon">
+                    </div>
                 </div>
             </div>
 
