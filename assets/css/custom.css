@@ -357,7 +357,7 @@
 
 /* Who We Are Section */
 
-.who_we_are_section{
+.who_we_are_section {
   padding-bottom: 150px;
 }
 
@@ -532,26 +532,26 @@
 }
 
 @media (min-width: 992px) {
-  .services-section .card .text-content{
+  .services-section .card .text-content {
     width: 50%;
   }
-  .services-section .card .img_container{
+  .services-section .card .img_container {
     width: 50%;
   }
 }
 
-.services-section .card_title{
+.services-section .card_title {
   font-size: 32px;
   margin-bottom: 24px;
 }
 
-.services-section .card_description{
+.services-section .card_description {
   font-size: 16px;
   color: black;
   margin-bottom: 24px;
 }
 
-.services-section .tags_container{
+.services-section .tags_container {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -568,9 +568,71 @@
   cursor: pointer;
 }
 
-.services-section .tags_container .tag:hover{
+.services-section .tags_container .tag:hover {
   background-color: #000000;
   color: white;
   transition-timing-function: ease-in-out;
   transition-duration: 0.3s;
+}
+
+/* Our Impact Section */
+.our_impact_section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.our_impact_section .card {
+  background-color: #f5f5f5;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+
+.our_impact_section .card img {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.our_impact_section .card .card_title {
+  margin-bottom: 16px;
+}
+
+.our_impact_section .card .text_content {
+  padding: 24px;
+  border-bottom: 1px solid #aaa;
+}
+
+.our_impact_section .card .stats {
+  font-size: 60px;
+  font-weight: 600;
+  padding: 20px 24px;
+}
+
+.our_impact_section .left_content .card:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.our_impact_section .right_content .card:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.our_impact_section .middle_content{
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.our_impact_section .tagline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our_impact_section .section_title{
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.our_impact_section .section_description{
+  font-size: 18px;
+  color: black;
 }
