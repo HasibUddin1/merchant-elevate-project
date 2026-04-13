@@ -213,7 +213,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         <!-- Who we are section -->
 
-        <section class="container">
+        <section class="container who_we_are_section">
             <div class="row">
                 <div class="col-xl-5 col-lg-5" data-aos="fade-right" data-aos-delay="50">
                     <div class="d-flex align-items-center gap-3 mb-3">

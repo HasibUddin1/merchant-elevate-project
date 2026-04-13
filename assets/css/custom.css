@@ -357,6 +357,10 @@
 
 /* Who We Are Section */
 
+.who_we_are_section{
+  padding-bottom: 150px;
+}
+
 .who_we_are_heading {
   font-size: 54px;
 }
