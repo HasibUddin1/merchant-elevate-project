@@ -262,10 +262,73 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <div class="cards-section">
 
-                <div class="card">Card 1</div>
-                <div class="card">Card 2</div>
-                <div class="card">Card 3</div>
-                <div class="card">Card 4</div>
+                <!-- 1st Card -->
+                <div class="card">
+                    <div class="text-content">
+                        <h3 class="card_title">Secure Document Handling</h3>
+                        <p class="card_description">Manage all your important business documents in a centralized and secure system. Users can easily upload, organize, and track their files while ensuring data safety and smooth administrative handling.</p>
+                        <div class="tags_container">
+                            <span class="tag">Secure Storage</span>
+                            <span class="tag">Easy Upload</span>
+                            <span class="tag">Organized Files</span>
+                            <span class="tag">Access Control</span>
+                        </div>
+                    </div>
+                    <div class="img_container">
+                        <img src="assets/img/service_img1.jpg" alt="Service Image" class="img-fluid rounded-custom" />
+                    </div>
+                </div>
+
+                <!-- 2nd Card -->
+                <div class="card">
+                    <div class="text-content">
+                        <h3 class="card_title">User Management System</h3>
+                        <p class="card_description">Efficiently manage user accounts, roles, and permissions within your platform. This system ensures proper access control, smooth onboarding, and structured user activity tracking for better management.</p>
+                        <div class="tags_container">
+                            <span class="tag">Role Control</span>
+                            <span class="tag">User Access</span>
+                            <span class="tag">Account Management</span>
+                            <span class="tag">Permission System</span>
+                        </div>
+                    </div>
+                    <div class="img_container">
+                        <img src="assets/img/service_img2.jpg" alt="Service Image" class="img-fluid rounded-custom" />
+                    </div>
+                </div>
+
+                <!-- 3rd Card -->
+                <div class="card">
+                    <div class="text-content">
+                        <h3 class="card_title">Workflow Automation Tools</h3>
+                        <p class="card_description">Streamline repetitive business processes with smart automation tools. Reduce manual effort, improve efficiency, and ensure tasks move smoothly through predefined workflows without delays.</p>
+                        <div class="tags_container">
+                            <span class="tag">Process Automation</span>
+                            <span class="tag">Task Flow</span>
+                            <span class="tag">Efficiency Boost</span>
+                            <span class="tag">Smart Scheduling</span>
+                        </div>
+                    </div>
+                    <div class="img_container">
+                        <img src="assets/img/service_img3.jpg" alt="Service Image" class="img-fluid rounded-custom" />
+                    </div>
+                </div>
+
+                <!-- 4th Card -->
+                <div class="card">
+                    <div class="text-content">
+                        <h3 class="card_title">Performance Analytics Dashboard</h3>
+                        <p class="card_description">Get a clear overview of system and business performance through real-time analytics. Track key metrics, monitor activity trends, and make data-driven decisions with ease.</p>
+                        <div class="tags_container">
+                            <span class="tag">Real-time Data</span>
+                            <span class="tag">Insights</span>
+                            <span class="tag">KPI Tracking</span>
+                            <span class="tag">Reporting System</span>
+                        </div>
+                    </div>
+                    <div class="img_container">
+                        <img src="assets/img/service_img4.jpg" alt="Service Image" class="img-fluid rounded-custom" />
+                    </div>
+                </div>
 
             </div>
         </section>
