@@ -213,7 +213,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         <!-- Who we are section -->
 
-        <section class="container who_we_are_section">
+        <section class="container who_we_are_section" id="about">
             <div class="row">
                 <div class="col-xl-5 col-lg-5" data-aos="fade-right" data-aos-delay="50">
                     <div class="d-flex align-items-center gap-3 mb-3">
@@ -473,8 +473,8 @@ if (session_status() == PHP_SESSION_NONE) {
                         <p class="mt-3 mb-0 card_description">Designing clean and user-friendly interfaces that improve engagement and usability.</p>
 
                     </div>
-                    
-                    
+
+
                     <!-- 4th Card -->
                     <div class="work_card">
                         <div class="position-relative">
@@ -501,8 +501,8 @@ if (session_status() == PHP_SESSION_NONE) {
                         <p class="mt-3 mb-0 card_description">Organizing and managing business data securely for better control and decision-making.</p>
 
                     </div>
-                    
-                    
+
+
                     <!-- 6th Card -->
                     <div class="work_card">
                         <div class="position-relative">
@@ -517,6 +517,129 @@ if (session_status() == PHP_SESSION_NONE) {
                     </div>
 
                 </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonial_section container">
+            <div class="d-flex align-items-center gap-3 mb-3" data-aos="fade-up">
+                <div class="section-subtitle-icon"></div>
+                <p class="mb-0 section-subtitle">Client Testimonials</p>
+            </div>
+            <div data-aos="fade-up">
+                <h3 class="section_heading">What Our Clients Say</h3>
+                <p class="section_description">We are proud to partner with incredible clients who trust our work and appreciate the results we deliver.</p>
+            </div>
+
+            <div class="testimonial_cards_container row" data-aos="fade-up">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 p-3">
+                    <div class="card first_card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="img_container">
+                                <img src="assets/img/client1.png" alt="Alex Morgan">
+                            </div>
+                            <div class="quote_icon">
+                                <img src="assets/img/quotation.png" alt="Quote Icon">
+
+                            </div>
+                        </div>
+                        <h4 class="testimonial_author">Alex Morgan</h4>
+                        <p class="designation">Product Manager</p>
+                        <p class="testimonial_text">"Before using this platform, our workflow was spread across multiple tools, making progress tracking difficult. After switching, everything became seamless—from automation to reporting. The dashboard provides real-time visibility, and our team is now fully aligned. It’s more than just software; it has become our daily command center. I honestly can’t imagine managing our business without it anymore."</p>
+
+                    </div>
+                    
+                    <div class="card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="img_container">
+                                <img src="assets/img/client4.png" alt="David Brown">
+                            </div>
+                            <div class="quote_icon">
+                                <img src="assets/img/quotation.png" alt="Quote Icon">
+
+                            </div>
+                        </div>
+                        <h4 class="testimonial_author">David Brown</h4>
+                        <p class="designation">Growth Strategist</p>
+                        <p class="testimonial_text">"This platform has transformed how our team works. From task automation to real-time collaboration, everything runs seamlessly. The interface is intuitive, and the support team is genuinely focused on delivering a great user experience."</p>
+
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 p-3">
+                    <div class="card first_card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="img_container">
+                                <img src="assets/img/client2.png" alt="James Carter">
+                            </div>
+                            <div class="quote_icon">
+                                <img src="assets/img/quotation.png" alt="Quote Icon">
+
+                            </div>
+                        </div>
+                        <h4 class="testimonial_author">James Carter</h4>
+                        <p class="designation">CTO</p>
+                        <p class="testimonial_text">"We were initially skeptical about making the switch, but the software quickly proved its value within days. Our operations became more efficient, our data better organized, and our workflow significantly smoother."</p>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="img_container">
+                                <img src="assets/img/client5.png" alt="Emily Stone">
+                            </div>
+                            <div class="quote_icon">
+                                <img src="assets/img/quotation.png" alt="Quote Icon">
+
+                            </div>
+                        </div>
+                        <h4 class="testimonial_author">Emily Stone</h4>
+                        <p class="designation">Data Scientist</p>
+                        <p class="testimonial_text">"We faced challenges managing projects and data across multiple departments. After testing several SaaS platforms, this one stood out right away. The UI is clean and intuitive, and its automation features save us hours each day. What impressed us most was how seamlessly it scaled with our rapid team growth. We’ve significantly reduced manual work, improved efficiency, and regained full control over our processes."</p>
+
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 p-3">
+                    <div class="card first_card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="img_container">
+                                <img src="assets/img/client3.png" alt="Sarah Wilson">
+                            </div>
+                            <div class="quote_icon">
+                                <img src="assets/img/quotation.png" alt="Quote Icon">
+
+                            </div>
+                        </div>
+                        <h4 class="testimonial_author">Sarah Wilson</h4>
+                        <p class="designation">Marketing Director</p>
+                        <p class="testimonial_text">"We needed a solution that didn’t require lengthy onboarding or technical expertise. Within just a few hours, our entire team was up and running. Every feature feels thoughtfully designed for real users—simple, clear, and efficient. Reports, integrations, and notifications all work seamlessly. It’s rare to find software that performs so reliably without constant troubleshooting."</p>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="img_container">
+                                <img src="assets/img/client6.png" alt="Michael Reed">
+                            </div>
+                            <div class="quote_icon">
+                                <img src="assets/img/quotation.png" alt="Quote Icon">
+
+                            </div>
+                        </div>
+                        <h4 class="testimonial_author">Michael Reed</h4>
+                        <p class="designation">Cloud Architect</p>
+                        <p class="testimonial_text">"The performance, reliability, and customer support make this platform truly outstanding. It’s more than just a tool—it has become an essential part of our business operations, driving growth and simplifying our daily workflows with consistent speed and efficiency."</p>
+
+                    </div>
+                </div>
+
+               
+
             </div>
         </section>
 

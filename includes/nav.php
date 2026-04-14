@@ -28,8 +28,8 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                 <div class="collapse navbar-collapse justify-content-center">
                     <ul class="nav col-12 col-md-auto justify-content-center main-menu header_menu gap-10">
                         <li><a href="index" class="header_nav_link">Home</a></li>
-                        <li><a href="about" class="header_nav_link">About Us</a></li>
-                        <li><a href="contact" class="header_nav_link">Contact Us</a></li>
+                        <li><a href="#about" class="header_nav_link">About Us</a></li>
+                        <li><a href="#services" class="header_nav_link">Services</a></li>
                     </ul>
                 </div>
 
