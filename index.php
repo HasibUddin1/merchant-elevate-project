@@ -252,9 +252,9 @@ if (session_status() == PHP_SESSION_NONE) {
         <!-- Services Section -->
         <section class="services-section" id="services">
 
-            <div class="d-flex align-items-center gap-3 mb-3 justify-content-center">
+            <div class="d-flex align-items-center gap-3 mb-3 justify-content-center" data-aos="fade-up">
                 <div class="section-subtitle-icon"></div>
-                <p class="mb-0 section-subtitle" data-aos="fade-up">What We Focus On</p>
+                <p class="mb-0 section-subtitle">What We Focus On</p>
             </div>
 
             <h1 class="text-center services-title" data-aos="fade-up">Explore Our Full Range of <br> Digital Services</h1>
