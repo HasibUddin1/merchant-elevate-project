@@ -615,52 +615,54 @@
   margin-bottom: 30px;
 }
 
-.our_impact_section .middle_content{
+.our_impact_section .middle_content {
   position: sticky;
   top: 100px;
   height: fit-content;
 }
 
-.our_impact_section .tagline{
+.our_impact_section .tagline {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.our_impact_section .section_title{
+.our_impact_section .section_title {
   font-size: 54px;
   font-weight: bold;
 }
 
-.our_impact_section .section_description{
+.our_impact_section .section_description {
   font-size: 18px;
   color: black;
 }
 
-
 /* Our Work Section */
-.our_work_section .section_title{
+.our_work_section{
+  
+}
+.our_work_section .section_title {
   font-size: 54px;
   font-weight: bold;
 }
 
-.our_work_section .section_description{
+.our_work_section .section_description {
   font-size: 18px;
   color: black;
   font-weight: 400;
 }
 
-.our_work_section .text_content{
+.our_work_section .text_content {
   margin-bottom: 72px;
 }
 
-.our_work_section .buttons_container{
+.our_work_section .buttons_container {
   display: flex;
   flex-direction: row;
   gap: 16px;
 }
 
-.our_work_section .buttons_container button{
+.our_work_section .buttons_container button {
   background-color: white;
   border: 1px solid #aaa;
   color: black;
@@ -675,11 +677,11 @@
   padding: 0;
 }
 
-
 /* SLIDER WRAPPER */
 .our_work_section .work_slider_wrapper {
   overflow: hidden;
   width: 100%;
+  padding-bottom: 300px;
 }
 
 /* SLIDER TRACK */
@@ -691,17 +693,51 @@
 /* CARD */
 .our_work_section .work_card {
   min-width: 33.333%;
-  padding: 20px;
   box-sizing: border-box;
 }
 
 /* demo style */
 .our_work_section .work_card {
-  background: #f5f5f5;
-  border: 1px solid #ddd;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-weight: bold;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.work_slider_wrapper .project_image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.work_slider_wrapper .project-shape-box {
+    background-color: #fff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    padding-top: 16px;
+    padding-right: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.work_slider_wrapper .project-shape {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+.work_slider_wrapper .project-shape-two {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+}
+
+
+.work_slider_wrapper .card_description{
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
 }

@@ -398,7 +398,7 @@ if (session_status() == PHP_SESSION_NONE) {
         </section>
 
         <!-- Our Work Section -->
-        <section class="our_work_section">
+        <section class="our_work_section container ms-auto">
             <div class="container text_content">
                 <div class="d-flex justify-content-start align-items-center gap-3 mb-3">
                     <div class="section-subtitle-icon"></div>
@@ -430,15 +430,91 @@ if (session_status() == PHP_SESSION_NONE) {
 
             <!-- SLIDER -->
             <div class="work_slider_wrapper">
-                <div class="work_slider" id="workSlider">
+                <div class="work_slider container" id="workSlider">
 
-                    <!-- 6 ITEMS -->
-                    <div class="work_card">Project One</div>
-                    <div class="work_card">Project Two</div>
-                    <div class="work_card">Project Three</div>
-                    <div class="work_card">Project Four</div>
-                    <div class="work_card">Project Five</div>
-                    <div class="work_card">Project Six</div>
+                    <!-- 1st Card -->
+                    <div class="work_card">
+                        <div class="position-relative">
+                            <div class="project-image-box"><img style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" loading="lazy" alt="" src="assets/img/work_img1.jpg" class="project_image img-fluid rounded-custom">
+                                <div class="project-shape-box"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape-two">
+                                    <h3 class="card_heading">Web Development</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-0 card_description">Custom, responsive websites built for performance, scalability, and modern user experience.</p>
+
+                    </div>
+
+
+                    <!-- 2nd Card -->
+                    <div class="work_card">
+                        <div class="position-relative">
+                            <div class="project-image-box"><img style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" loading="lazy" alt="" src="assets/img/work_img2.jpg" class="project_image img-fluid rounded-custom">
+                                <div class="project-shape-box"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape-two">
+                                    <h3 class="card_heading">System Integration</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-0 card_description">Connecting tools and platforms seamlessly to improve workflow and reduce manual work.</p>
+
+                    </div>
+
+
+
+                    <!-- 3rd Card -->
+                    <div class="work_card">
+                        <div class="position-relative">
+                            <div class="project-image-box"><img style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" loading="lazy" alt="" src="assets/img/work_img3.jpg" class="project_image img-fluid rounded-custom">
+                                <div class="project-shape-box"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape-two">
+                                    <h3 class="card_heading">UI/UX Design</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-0 card_description">Designing clean and user-friendly interfaces that improve engagement and usability.</p>
+
+                    </div>
+                    
+                    
+                    <!-- 4th Card -->
+                    <div class="work_card">
+                        <div class="position-relative">
+                            <div class="project-image-box"><img style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" loading="lazy" alt="" src="assets/img/work_img4.jpg" class="project_image img-fluid rounded-custom">
+                                <div class="project-shape-box"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape-two">
+                                    <h3 class="card_heading">Process Automation</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-0 card_description">Automating repetitive business tasks to save time and increase operational efficiency.</p>
+
+                    </div>
+
+
+                    <!-- 5th Card -->
+                    <div class="work_card">
+                        <div class="position-relative">
+                            <div class="project-image-box"><img style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" loading="lazy" alt="" src="assets/img/work_img5.jpg" class="project_image img-fluid rounded-custom">
+                                <div class="project-shape-box"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape-two">
+                                    <h3 class="card_heading">Data Management</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-0 card_description">Organizing and managing business data securely for better control and decision-making.</p>
+
+                    </div>
+                    
+                    
+                    <!-- 6th Card -->
+                    <div class="work_card">
+                        <div class="position-relative">
+                            <div class="project-image-box"><img style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" loading="lazy" alt="" src="assets/img/work_img6.jpg" class="project_image img-fluid rounded-custom">
+                                <div class="project-shape-box"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape"><img loading="lazy" src="https://cdn.prod.website-files.com/67c557f717dc36a702f39ae2/6870f7ebeccf3fc95b60dc71_svgviewer-output.svg" alt="" class="project-shape-two">
+                                    <h3 class="card_heading">Performance Optimization</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-0 card_description">Improving system speed, efficiency, and overall digital performance for better results.</p>
+
+                    </div>
 
                 </div>
             </div>
