@@ -337,7 +337,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <!-- Our Impact Section -->
         <section class="our_impact_section container">
             <div class="row justify-content-center">
-                <div class="col-lg-4 left_content">
+                <div class="col-lg-4 left_content" data-aos="fade-right">
 
                     <!-- 1st Card -->
                     <div class="card">
@@ -360,7 +360,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     </div>
                 </div>
 
-                <div class="col-lg-4 middle_content">
+                <div class="col-lg-4 middle_content" data-aos="fade-up">
                     <div class="tagline gap-3 mb-3">
                         <div class="section-subtitle-icon"></div>
                         <p class="mb-0 section-subtitle">Our Impact</p>
@@ -369,7 +369,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     <p class="section_description text-center mt-3 mb-0">We deliver measurable results that help businesses grow, scale, and operate more efficiently.</p>
                 </div>
 
-                <div class="col-lg-4 right_content">
+                <div class="col-lg-4 right_content" data-aos="fade-left">
 
                     <!-- 3rd Card -->
                     <div class="card">
@@ -394,6 +394,53 @@ if (session_status() == PHP_SESSION_NONE) {
 
                 </div>
 
+            </div>
+        </section>
+
+        <!-- Our Work Section -->
+        <section class="our_work_section">
+            <div class="container text_content">
+                <div class="d-flex justify-content-start align-items-center gap-3 mb-3">
+                    <div class="section-subtitle-icon"></div>
+                    <div>
+                        <p class="mb-0 section-subtitle">Our Work</p>
+                    </div>
+                </div>
+
+                <h1 class="section_title mb-3">
+                    Crafting Digital Solutions <br> That Deliver Results
+                </h1>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="section_description">
+                        Explore how we turn ideas into scalable, efficient, and <br>
+                        impactful digital work for modern businesses.
+                    </p>
+
+                    <div class="buttons_container">
+                        <button id="prevBtn">
+                            <img width="24" src="assets/img/left_arrow.png">
+                        </button>
+                        <button id="nextBtn">
+                            <img width="24" src="assets/img/right_arrow.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDER -->
+            <div class="work_slider_wrapper">
+                <div class="work_slider" id="workSlider">
+
+                    <!-- 6 ITEMS -->
+                    <div class="work_card">Project One</div>
+                    <div class="work_card">Project Two</div>
+                    <div class="work_card">Project Three</div>
+                    <div class="work_card">Project Four</div>
+                    <div class="work_card">Project Five</div>
+                    <div class="work_card">Project Six</div>
+
+                </div>
             </div>
         </section>
 
