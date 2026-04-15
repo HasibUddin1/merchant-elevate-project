@@ -1,42 +1,36 @@
 <!--cat subscribe start-->
-        <section class="cta-subscribe bg-dark text-white ptb-120 position-relative overflow-hidden">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-10">
-                        <div class="subscribe-info-wrap text-center position-relative z-2">
-                            <div class="section-heading" data-aos="fade-up">
-                                <h4 class="h5 text-warning">Ready To Earn? </h4>
-                                <h2>Get Started With Your Account</h2>
-                                <p>
-                                    All it takes is 10 minutes. Sign up, submit your application and <br> have your account ready to go in as little as 72 hours 
-                                </p>
-                            </div>
-                            <div class="form-block-banner mw-60 m-auto mt-5" data-aos="fade-up" data-aos-delay="50">
-                                <a href="register" class="btn btn-primary">Get Started</a>
-                               
-                            </div>
-                            <ul class="nav justify-content-center subscribe-feature-list mt-4" data-aos="fade-up" data-aos-delay="100">
-                                <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>Fast Approvals</span>
-                                </li>
-                                <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>Monthly Payouts</span>
-                                </li>
-                                <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>Zero Risk</span>
-                                </li>
-                                <li class="nav-item">
-                                    <span><i class="far fa-check-circle text-primary me-2"></i>Client Support</span>
-                                </li>
-                            </ul>
+<section class="cta_section container cta-subscribe text-white ptb-120 position-relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="subscribe-info-wrap text-center position-relative z-2">
+                    <div class="section-heading">
+                        <div class="d-flex align-items-center gap-3 mb-3 justify-content-center">
+                            <div class="section-subtitle-icon light"></div>
+                            <p class="mb-0 section-subtitle text-white">Ready to Earn?</p>
                         </div>
+                        <h2 class="text-white cta_heading">Get Started With <br> Your Account</h2>
+                        <p class="text-white cta_description">
+                            All it takes is 10 minutes. Sign up, submit your application and <br> have your account ready to go in as little as 72 hours
+                        </p>
                     </div>
+                    <div class="form-block-banner mw-60 m-auto mt-5">
+                        <a href="register" class="btn site_btn_color light">
+                            <span class="text-wrap">
+                                <span class="text-black">Get Started</span>
+                                <span class="text-black">Get Started</span>
+                            </span>
+                        </a>
+
+                    </div>
+                    
                 </div>
-                <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light left-5"></div>
-                <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning right-5"></div>
             </div>
-        </section>
-        <!--cat subscribe end-->
+        </div>
+        
+    </div>
+</section>
+<!--cat subscribe end-->
 
 <footer class="footer-section">
     <div class="footer-top footer-light ptb-120">

@@ -50,24 +50,24 @@
 
 /* Hero Section */
 .hero-slider {
-    position: relative;
-    overflow: hidden;
-    border-radius: 16px;
-    height: 737px; /* MUST HAVE */
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  height: 737px; /* MUST HAVE */
 }
 
 /* all images stacked */
 .hero-slider .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 
-    opacity: 0;
-    transform: translateX(100%);
-    transition: all 0.8s ease;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 0.8s ease;
 }
 
 /* active image */
@@ -86,21 +86,21 @@
 /* Progress bar */
 /* Background track */
 .hero-slider .progress-track {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 10px;
-    background: #e0e0e0; /* your background color */
-    z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0; /* your background color */
+  z-index: 2;
 }
 
 /* Actual loader */
 .hero-slider .progress-bar {
-    height: 100%;
-    width: 0%;
-    background: #000000; /* loader color */
-    z-index: 3;
+  height: 100%;
+  width: 0%;
+  background: #000000; /* loader color */
+  z-index: 3;
 }
 
 /* ********************** */
@@ -866,4 +866,35 @@
 
 .contact_form .image_container {
   padding-left: 30px;
+}
+
+/* CTA Section */
+.cta_section {
+  background-image: url("../img/cta_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+}
+
+.cta_section .section-subtitle-icon.light {
+  background-color: white;
+}
+.cta_section .site_btn_color.light {
+  background-color: white;
+}
+
+.cta_section .site_btn_color.light .text-wrap span {
+  font-weight: 600;
+}
+
+.cta_section .cta_heading{
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.cta_section .cta_description{
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
 }
