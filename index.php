@@ -29,10 +29,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         <!--hero section start-->
         <!-- TODO: Implementing Slider on Hero Images -->
-        <section class="hero-section ptb-40" style="
-          background: url('assets/img/shape/dot-dot-wave-shape.svg') no-repeat
-            bottom center;
-        ">
+        <section class="hero-section ptb-40">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-5">
@@ -61,17 +58,17 @@ if (session_status() == PHP_SESSION_NONE) {
                             <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block" data-aos="fade-up" data-aos-delay="1500">
 
                                 <ul class="nav subscribe-feature-list mt-3">
-                                    <li class="nav-item">
-                                        <span class="ms-0"><i class="far fa-check-circle text-primary me-2"></i>Quick Approvals</span>
+                                    <li class="nav-item text-black">
+                                        <span class="ms-0"><i class="far fa-check-circle me-2"></i>Quick Approvals</span>
                                     </li>
-                                    <li class="nav-item">
-                                        <span><i class="far fa-check-circle text-primary me-2"></i>Consistent Monthly Payouts</span>
+                                    <li class="nav-item text-black">
+                                        <span><i class="far fa-check-circle me-2"></i>Consistent Monthly Payouts</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 mt-4 mt-xl-0 ps-xl-5">
+                    <div class="col-xl-6 col-lg-6 mt-4 mt-xl-0 ps-xl-5" data-aos="fade-left" data-aos-delay="2000">
                         <div class="hero-img-wrap position-relative">
 
                             <div class="hero-img-wrap position-relative">

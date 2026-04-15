@@ -32,7 +32,7 @@
 </section>
 <!--cat subscribe end-->
 
-<footer class="footer-section">
+<footer class="footer-section footer_section_container">
     <div class="footer-top footer-light ptb-120">
         <div class="container">
             <div class="row justify-content-between">
@@ -42,9 +42,13 @@
                             <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white" />
                             <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color" />
                         </div>
-                        <p>
+                        <p class="text-black">
                             Your E-Commerce Blueprint. Our Expert Craft E-Commerce Accounts That Pay You Back.
                         </p>
+                        <div class="footer_icon d-flex align-items-center gap-3 mt-5">
+                            <img width="55" src="assets/img/location_icon.png" alt="Footer Image">
+                            <p class="text-black mb-0"><?= ADDRESS ?></p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
@@ -57,10 +61,13 @@
                                         <a href="index" class="text-decoration-none">Home</a>
                                     </li>
                                     <li>
-                                        <a href="about" class="text-decoration-none">About Us</a>
+                                        <a href="#about" class="text-decoration-none">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="contact" class="text-decoration-none">Contact Us</a>
+                                        <a href="#contact" class="text-decoration-none">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#services" class="text-decoration-none">Services</a>
                                     </li>
                                     <!--<li>-->
                                     <!--    <a href="help" class="text-decoration-none">Help Center</a>-->
@@ -70,7 +77,7 @@
                         </div>
                         <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                             <div class="footer-single-col">
-                                <h3>Company</h3>
+                                <h3>User</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
                                     <!--<li>-->
                                     <!--    <a href="services" class="text-decoration-none">Services</a>-->
@@ -82,21 +89,18 @@
                                     <!--    <a href="news" class="text-decoration-none">Our Latest News</a>-->
                                     <!--</li>-->
                                     <li>
-                                        <a href="career" class="text-decoration-none">Career</a>
+                                        <a href="login" class="text-decoration-none">Sign In</a>
+                                    </li>
+                                    <li>
+                                        <a href="register" class="text-decoration-none">Register</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                             <div class="footer-single-col">
-                                <h3>User & Legal</h3>
+                                <h3>Legal</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                    <li>
-                                        <a href="login" class="text-decoration-none">Sign In</a>
-                                    </li>
-                                    <li>
-                                        <a href="register" class="text-decoration-none">Create Account</a>
-                                    </li>
                                     <li>
                                         <a href="privacy" class="text-decoration-none">Privacy Policy</a>
                                     </li>
@@ -120,7 +124,7 @@
                 <div class="col-md-7 col-lg-7">
                     <div class="copyright-text">
                         <p class="mb-lg-0 mb-md-0">
-                            &copy; 2023 <?= SITE_NAME ?> All Rights Reserved.
+                            &copy; 2026 <span class="fw-semibold"><?= SITE_NAME ?></span> | All Rights Reserved.
                         </p>
                     </div>
                 </div>

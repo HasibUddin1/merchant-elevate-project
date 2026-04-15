@@ -24546,7 +24546,7 @@ h4 {
 }
 .footer-light .footer-nav-list li a,
 .footer-light .footer-single-col p {
-  color: #737373;
+  /* color: #737373; */
   opacity: 0.8;
 }
 .footer-light .footer-nav-list li a:hover {
@@ -24607,11 +24607,11 @@ h4 {
   border-top: 1px solid rgba(248, 249, 250, 0.05);
 }
 .footer-bottom.footer-light {
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid #0000004d;
 }
 .copyright-text p {
-  font-size: 14px;
-  color: #65676d;
+  font-size: 16px;
+  color: black;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
@@ -24619,7 +24619,7 @@ h4 {
   color: #737373;
 }
 .footer-light .copyright-text p {
-  color: #65676d;
+  color: black;
 }
 .bg-dark .copyright-text p,
 .bg-gradient .copyright-text p {

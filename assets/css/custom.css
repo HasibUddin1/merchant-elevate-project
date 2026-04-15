@@ -898,3 +898,15 @@
   color: white;
   font-weight: 400;
 }
+
+
+/* Footer Section */
+.footer_section_container h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer_section_container li{
+  font-size: 16px;
+  color: black !important;
+}
