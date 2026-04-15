@@ -34,7 +34,7 @@ if (session_status() == PHP_SESSION_NONE) {
             bottom center;
         ">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-5">
                         <div class="hero-content-wrap text-center text-xl-start text-lg-start">
                             <div class="d-flex justify-content-start align-items-center gap-3 mb-3" data-aos="fade-up" data-aos-delay="100">
@@ -71,14 +71,23 @@ if (session_status() == PHP_SESSION_NONE) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 mt-4 mt-xl-0 ps-xl-5">
-                        <div class="hero-img-wrap position-relative" data-aos="fade-left" data-aos-delay="1800">
+                    <div class="col-xl-6 col-lg-6 mt-4 mt-xl-0 ps-xl-5">
+                        <div class="hero-img-wrap position-relative">
 
                             <div class="hero-img-wrap position-relative">
                                 <div class="hero-screen-wrap">
 
                                     <div class="mac-screen">
-                                        <img width="800" src="assets/img/hero-img.jpg" alt="hero image" class="position-relative img-fluid rounded-custom" />
+                                        <div class="hero-slider">
+                                            <img src="assets/img/hero1.jpg" class="slide active" />
+                                            <img src="assets/img/hero2.jpg" class="slide" />
+                                            <img src="assets/img/hero3.jpg" class="slide" />
+
+                                            <!-- Progress bar -->
+                                            <div class="progress-track">
+                                                <div class="progress-bar"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

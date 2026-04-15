@@ -48,6 +48,61 @@
   opacity: 1 !important;
 }
 
+/* Hero Section */
+.hero-slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    height: 737px; /* MUST HAVE */
+}
+
+/* all images stacked */
+.hero-slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.8s ease;
+}
+
+/* active image */
+.hero-slider .slide.active {
+  opacity: 1;
+  transform: translateX(0);
+  z-index: 2;
+}
+
+/* previous image goes left */
+.hero-slider .slide.prev {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+/* Progress bar */
+/* Background track */
+.hero-slider .progress-track {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0; /* your background color */
+    z-index: 2;
+}
+
+/* Actual loader */
+.hero-slider .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #000000; /* loader color */
+    z-index: 3;
+}
+
 /* ********************** */
 /* Address Auto complete */
 /* ********************** */
@@ -638,8 +693,7 @@
 }
 
 /* Our Work Section */
-.our_work_section{
-
+.our_work_section {
 }
 .our_work_section .section_title {
   font-size: 54px;
@@ -709,14 +763,14 @@
 }
 
 .work_slider_wrapper .project-shape-box {
-    background-color: #fff;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 0;
-    padding-top: 16px;
-    padding-right: 32px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  background-color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 0;
+  padding-top: 16px;
+  padding-right: 32px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .work_slider_wrapper .project-shape {
@@ -728,91 +782,88 @@
 }
 
 .work_slider_wrapper .project-shape-two {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    bottom: 0;
-    right: -20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  right: -20px;
 }
 
-
-.work_slider_wrapper .card_description{
+.work_slider_wrapper .card_description {
   color: black;
   font-weight: 400;
   font-size: 16px;
 }
 
-
 /* Testimonial Section */
-.testimonial_section{
+.testimonial_section {
   padding-bottom: 150px;
 }
-.testimonial_section .section_heading{
+.testimonial_section .section_heading {
   font-size: 54px;
   font-weight: bold;
 }
 
-.testimonial_section .section_description{
+.testimonial_section .section_description {
   font-size: 18px;
   color: black;
   font-weight: 400;
 }
 
-.testimonial_section .testimonial_author{
+.testimonial_section .testimonial_author {
   font-size: 20px;
   margin-bottom: 4px;
 }
 
-.testimonial_section .testimonial_cards_container .card{
+.testimonial_section .testimonial_cards_container .card {
   padding: 30px 40px;
   border: none;
   background-color: #f5f5f5;
   border-radius: 20px;
 }
 
-.testimonial_section .testimonial_text{
+.testimonial_section .testimonial_text {
   font-size: 16px;
   color: black;
   font-weight: 400;
 }
 
-.testimonial_section .designation{
+.testimonial_section .designation {
   color: black;
 }
 
-.testimonial_section .first_card{
+.testimonial_section .first_card {
   margin-bottom: 24px;
 }
 
-
 /* Contact Section */
-.contact_form .section_title{
+.contact_form .section_title {
   font-size: 54px;
   font-weight: bold;
 }
 
-.contact_form .section_description{
+.contact_form .section_description {
   font-size: 18px;
   color: black;
   font-weight: 400;
 }
 
-.contact_form .contact_info{
+.contact_form .contact_info {
   margin-top: 32px;
 }
 
-.contact_form label{
+.contact_form label {
   font-size: 16px;
   font-weight: 400;
 }
 
-.contact_form input{
+.contact_form input {
   border: 1px solid #aaa !important;
 }
-.contact_form textarea{
+.contact_form textarea {
   border: 1px solid #aaa !important;
 }
 
-.contact_form .image_container{
+.contact_form .image_container {
   padding-left: 30px;
 }
