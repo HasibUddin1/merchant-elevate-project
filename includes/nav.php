@@ -30,6 +30,7 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                         <li><a href="index" class="header_nav_link">Home</a></li>
                         <li><a href="#about" class="header_nav_link">About Us</a></li>
                         <li><a href="#services" class="header_nav_link">Services</a></li>
+                        <li><a href="#contact" class="header_nav_link">Contact</a></li>
                     </ul>
                 </div>
 

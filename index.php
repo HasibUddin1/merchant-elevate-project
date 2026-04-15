@@ -550,7 +550,7 @@ if (session_status() == PHP_SESSION_NONE) {
                         <p class="testimonial_text">"Before using this platform, our workflow was spread across multiple tools, making progress tracking difficult. After switching, everything became seamless—from automation to reporting. The dashboard provides real-time visibility, and our team is now fully aligned. It’s more than just software; it has become our daily command center. I honestly can’t imagine managing our business without it anymore."</p>
 
                     </div>
-                    
+
                     <div class="card">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <div class="img_container">
@@ -638,10 +638,89 @@ if (session_status() == PHP_SESSION_NONE) {
                     </div>
                 </div>
 
-               
+
 
             </div>
         </section>
+
+
+        <!-- Contact Section -->
+        <!--contact us form start-->
+        <section class="contact-us-form pt-60 pb-120 contact_form" id="contact">
+            <div class="container">
+                <div class="row justify-content-lg-between align-items-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="section-heading" data-aos="fade-up">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="section-subtitle-icon"></div>
+                                <p class="mb-0 section-subtitle">What We Focus On</p>
+                            </div>
+                            <h2 class="section_title">Talk To A Team Member For Any Inquiries</h2>
+                            <p class="section_description">
+                                Our client onboarding team will help answer any questions you may have with getting your account started.
+                            </p>
+                        </div>
+                        <form action="./core/contact.php" class="register-form" method="POST" data-aos="fade-right">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="name" class="mb-1 text-black">Name *</label>
+                                    <div class="input-group mb-3">
+                                        <input type="text" name="name" class="form-control" id="firstName" required placeholder="Name" aria-label="Name" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="email" class="mb-1 text-black">Email *</label>
+                                    <div class="input-group mb-3">
+                                        <input type="email" name="email" class="form-control" id="email" required placeholder="Email" aria-label="Email" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="mb-1 text-black">Message *</label>
+                                    <div class="input-group mb-3">
+                                        <textarea class="form-control" name="message" id="message" required placeholder="How can we help you?" style="height: 120px"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" name="submit" class="btn site_btn_color mt-4">
+                                <span class="text-wrap">
+                                    <span>Send Message</span>
+                                    <span>Send Message</span>
+                                </span>
+                            </button>
+                            <?php
+                            if (isset($_GET['success']) && $_GET['success'] == 1) {
+                                // Show a Bootstrap success alert
+                                echo '<div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+                                            Message sent successfully!
+                                        </div>';
+                            } else if (isset($_GET['success']) && $_GET['success'] == 0) {
+                                // Show a Bootstrap success alert
+                                echo '<div class="alert alert-danger alert-dismissible fade show mt-4" role="alert">
+                                            Failed to send messsage. Try again later!
+                                        </div>';
+                            }
+                            ?>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-10 image_container" data-aos="fade-left">
+                        <div class="contact-us-img">
+                            <img src="assets/img/contact_img.jpg" alt="contact us" class="img-fluid rounded-custom" />
+                        </div>
+                        <div class="contact_info">
+                            <div class="location_info d-flex align-items-center gap-2 mb-2">
+                                <img width="24" src="assets/img/location_icon.png" alt="Location">
+                                <a class="text-black"><?= ADDRESS ?></a>
+                            </div>
+                            <div class="phone_info d-flex align-items-center gap-2">
+                                <img width="24" src="assets/img/phone_icon.png" alt="Phone">
+                                <a class="text-black"><?= PHONE ?></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--contact us form end-->
 
 
     </div>

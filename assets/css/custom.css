@@ -783,3 +783,36 @@
 .testimonial_section .first_card{
   margin-bottom: 24px;
 }
+
+
+/* Contact Section */
+.contact_form .section_title{
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.contact_form .section_description{
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+}
+
+.contact_form .contact_info{
+  margin-top: 32px;
+}
+
+.contact_form label{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact_form input{
+  border: 1px solid #aaa !important;
+}
+.contact_form textarea{
+  border: 1px solid #aaa !important;
+}
+
+.contact_form .image_container{
+  padding-left: 30px;
+}
