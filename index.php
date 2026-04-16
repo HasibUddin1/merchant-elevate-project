@@ -33,7 +33,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-5">
-                        <div class="hero-content-wrap text-center text-xl-start text-lg-start">
+                        <div class="hero-content-wrap text-start">
                             <div class="d-flex justify-content-start align-items-center gap-3 mb-3" data-aos="fade-up" data-aos-delay="100">
                                 <div class="section-subtitle-icon">
                                 </div>
@@ -55,16 +55,14 @@ if (session_status() == PHP_SESSION_NONE) {
                                     </span>
                                 </a>
                             </div>
-                            <div class="hero-subscribe-form-wrap position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block" data-aos="fade-up" data-aos-delay="1500">
-
-                                <ul class="nav subscribe-feature-list">
-                                    <li class="nav-item text-black">
-                                        <span class="ms-0"><i class="far fa-check-circle me-2"></i>Quick Approvals</span>
-                                    </li>
-                                    <li class="nav-item text-black">
-                                        <span><i class="far fa-check-circle me-2"></i>Consistent Monthly Payouts</span>
-                                    </li>
-                                </ul>
+                            <div class="hero-rating-wrap" data-aos="fade-up" data-aos-delay="1500">
+                                <div class="hero-author-box"><img loading="lazy" src="assets/img/person1.png" alt="" class="hero-author-img first"><img loading="lazy" src="assets/img/person2.png" alt="" class="hero-author-img"><img loading="lazy" src="assets/img/person3.png" alt="" class="hero-author-img"></div>
+                                <div class="hero-rating-box">
+                                    <div class="rating-box-two"><img loading="lazy" src="assets/img/star.svg" alt="" class="rating-star-two"><img loading="lazy" src="assets/img/star.svg" alt="" class="rating-star-two"><img loading="lazy" src="assets/img/star.svg" alt="" class="rating-star-two"><img loading="lazy" src="assets/img/star.svg" alt="" class="rating-star-two"><img loading="lazy" src="assets/img/star.svg" alt="" class="rating-star-two">
+                                        <p class="rating-count">4.9</p>
+                                    </div>
+                                    <p class="hero-rating-text mb-0">200+ Customers</p>
+                                </div>
                             </div>
                         </div>
                     </div>
