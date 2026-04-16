@@ -41,7 +41,7 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                     <?php } else if (isset($_SESSION['user_id']) && $_SESSION["user_email"] === "admin@merchantelevate.com") { ?>
                         <a href="superadmin/index" class="btn site_btn_color text-decoration-none me-2">Admin Dashboard</a>
                     <?php } else { ?>
-                        <a href="login" class="btn text-black text-decoration-none">Sign In</a>
+                        
                     <?php } ?>
                     <a href="register.php" class="btn site_btn_color">
                         <span class="text-wrap">
@@ -75,7 +75,7 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                     ?>
                         <a href="dashboard/index" class="btn btn-outline-primary me-2">Dashboard</a>
                     <?php } else { ?>
-                        <a href="login" class="btn btn-outline-primary me-2">Sign In</a>
+                        
                     <?php } ?>
                     <a href="register" class="btn btn-primary">Get Started</a>
                 </div>
