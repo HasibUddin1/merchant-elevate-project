@@ -416,10 +416,6 @@
   padding-bottom: 150px;
 }
 
-.who_we_are_heading {
-  font-size: 54px;
-}
-
 .who_we_are_description {
   font-size: 18px;
 }
@@ -520,7 +516,6 @@
 }
 
 .services-title {
-  font-size: 54px;
   font-weight: bold;
 }
 
@@ -580,32 +575,6 @@
 
 .services-section .card .img_container {
   margin-top: 24px;
-}
-
-@media (min-width: 992px) {
-  .services-section .card {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    align-items: center;
-    height: 400px;
-    padding-left: 42px;
-    padding-right: 24px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: left;
-  }
-  .services-section .card .text-content {
-    width: 50%;
-  }
-  .services-section .card .img_container {
-    width: 50%;
-    margin-top: 0;
-  }
-
-  .services-section .card_title {
-    font-size: 32px;
-  }
 }
 
 .services-section .card_title {
@@ -695,7 +664,6 @@
 }
 
 .our_impact_section .section_title {
-  font-size: 54px;
   font-weight: bold;
 }
 
@@ -708,7 +676,6 @@
 .our_work_section {
 }
 .our_work_section .section_title {
-  font-size: 54px;
   font-weight: bold;
 }
 
@@ -812,7 +779,6 @@
   padding-bottom: 150px;
 }
 .testimonial_section .section_heading {
-  font-size: 54px;
   font-weight: bold;
 }
 
@@ -850,7 +816,6 @@
 
 /* Contact Section */
 .contact_form .section_title {
-  font-size: 54px;
   font-weight: bold;
 }
 
@@ -901,7 +866,6 @@
 }
 
 .cta_section .cta_heading {
-  font-size: 54px;
   font-weight: bold;
 }
 
@@ -920,4 +884,65 @@
 .footer_section_container li {
   font-size: 16px;
   color: black !important;
+}
+
+@media (min-width: 992px) {
+  /* Who Are We Section */
+  .who_we_are_heading {
+    font-size: 54px;
+  }
+
+  /* Services Section */
+  .services-title {
+    font-size: 54px;
+  }
+  .services-section .card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    height: 400px;
+    padding-left: 42px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: left;
+  }
+  .services-section .card .text-content {
+    width: 50%;
+  }
+  .services-section .card .img_container {
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .services-section .card_title {
+    font-size: 32px;
+  }
+
+  /* Contact Form Section */
+  .contact_form .section_title {
+    font-size: 54px;
+  }
+
+  /* CTA Section */
+  .cta_section .cta_heading {
+    font-size: 54px;
+  }
+
+  /* Testimonial Section */
+  .testimonial_section .section_heading {
+    font-size: 54px;
+  }
+
+  /* Our Work Section */
+  .our_work_section .section_title {
+    font-size: 54px;
+  }
+
+  /* Our Impact Section */
+
+  .our_impact_section .section_title {
+    font-size: 54px;
+  }
 }

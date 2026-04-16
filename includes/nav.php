@@ -43,7 +43,7 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                     <?php } else { ?>
                         
                     <?php } ?>
-                    <a href="register.php" class="btn site_btn_color">
+                    <a href="login.php" class="btn site_btn_color">
                         <span class="text-wrap">
                             <span>Get Started</span>
                             <span>Get Started</span>
