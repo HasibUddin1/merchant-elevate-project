@@ -64,17 +64,40 @@
   const prevBtn = document.getElementById("prevBtn");
 
   let index = 0;
-  const totalItems = 6;
-  const visibleItems = 3;
-  const maxIndex = totalItems - visibleItems;
+  const totalItems = slider.children.length;
 
+  /* Get how many items should be visible */
+  function getVisibleItems() {
+    if (window.innerWidth <= 767) return 1;
+    if (window.innerWidth <= 991) return 2;
+    return 3;
+  }
+
+  /* Update slider position */
+  function updateSlider() {
+    const visibleItems = getVisibleItems();
+    const maxIndex = totalItems - visibleItems;
+
+    // prevent overflow
+    if (index > maxIndex) index = maxIndex;
+    if (index < 0) index = 0;
+
+    const slideWidth = 100 / visibleItems;
+    slider.style.transform = `translateX(-${index * slideWidth}%)`;
+  }
+
+  /* Next button */
   nextBtn.addEventListener("click", () => {
+    const visibleItems = getVisibleItems();
+    const maxIndex = totalItems - visibleItems;
+
     if (index < maxIndex) {
       index++;
       updateSlider();
     }
   });
 
+  /* Prev button */
   prevBtn.addEventListener("click", () => {
     if (index > 0) {
       index--;
@@ -82,8 +105,12 @@
     }
   });
 
-  function updateSlider() {
-    const slideWidth = 100 / visibleItems;
-    slider.style.transform = `translateX(-${index * slideWidth}%)`;
-  }
+  /* Handle resize (important) */
+  window.addEventListener("resize", () => {
+    index = 0; // reset for safer UX
+    updateSlider();
+  });
+
+  /* Init */
+  updateSlider();
 </script>

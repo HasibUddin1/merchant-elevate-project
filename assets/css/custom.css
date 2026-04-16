@@ -946,3 +946,18 @@
     height: fit-content;
   }
 }
+
+/* Our Work Section Responsive CSS */
+/* Tablet (2 items) */
+@media (max-width: 991px) {
+  .our_work_section .work_card {
+    min-width: 50%;
+  }
+}
+
+/* Mobile (1 item) */
+@media (max-width: 767px) {
+  .our_work_section .work_card {
+    min-width: 100%;
+  }
+}
