@@ -66,9 +66,8 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                 <ul class="nav col-12 col-md-auto justify-content-center main-menu">
                     <li><a href="index" class="nav-link">Home</a></li>
                     <li><a href="#about" class="nav-link">About Us</a></li>
-                    <li><a href="#about" class="nav-link">Services</a></li>
-                    <li><a href="#about" class="nav-link">Prices</a></li>
-                    <li><a href="#about" class="nav-link">Contact</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
                 <div class="action-btns mt-4 ps-3">
                     <?php if (isset($_SESSION['user_id'])) {
@@ -77,7 +76,7 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                     <?php } else { ?>
                         
                     <?php } ?>
-                    <a href="register" class="btn btn-primary">Get Started</a>
+                    <a href="login" class="btn site_btn_color">Get Started</a>
                 </div>
             </div>
         </div>
