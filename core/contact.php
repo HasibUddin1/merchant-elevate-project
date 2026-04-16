@@ -43,8 +43,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send the email
     if ($mail->send()) {
-        header('Location: ../contact.php?success=1');
+        header('Location: ../?success=1');
     } else {
-        header('Location: ../contact.php?success=0');
+        header('Location: ../?success=0');
     }
 }
