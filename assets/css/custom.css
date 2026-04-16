@@ -651,12 +651,6 @@
   margin-bottom: 30px;
 }
 
-.our_impact_section .middle_content {
-  position: sticky;
-  top: 100px;
-  height: fit-content;
-}
-
 .our_impact_section .tagline {
   display: flex;
   align-items: center;
@@ -944,5 +938,11 @@
 
   .our_impact_section .section_title {
     font-size: 54px;
+  }
+
+  .our_impact_section .middle_content {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
   }
 }
