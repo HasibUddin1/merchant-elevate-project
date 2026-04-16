@@ -28,8 +28,8 @@ if (session_status() == PHP_SESSION_NONE) {
         <?php include_once "includes/nav.php"; ?>
 
         <!--hero section start-->
-        <!-- TODO: Implementing Slider on Hero Images -->
-        <section class="hero-section ptb-40">
+        <!-- TODO: Updating the image below Start Your Project Button -->
+        <section class="hero-section ptb-40 overflow-hidden">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-5">
@@ -55,9 +55,9 @@ if (session_status() == PHP_SESSION_NONE) {
                                     </span>
                                 </a>
                             </div>
-                            <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block" data-aos="fade-up" data-aos-delay="1500">
+                            <div class="hero-subscribe-form-wrap position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block" data-aos="fade-up" data-aos-delay="1500">
 
-                                <ul class="nav subscribe-feature-list mt-3">
+                                <ul class="nav subscribe-feature-list">
                                     <li class="nav-item text-black">
                                         <span class="ms-0"><i class="far fa-check-circle me-2"></i>Quick Approvals</span>
                                     </li>
@@ -97,7 +97,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
         <!-- Marquee Section -->
-        <section class="marquee-section">
+        <section class="marquee-section overflow-hidden">
 
             <!-- TOP ROW -->
             <div class="marquee marquee-left">
@@ -219,7 +219,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         <!-- Who we are section -->
 
-        <section class="container who_we_are_section" id="about">
+        <section class="container who_we_are_section overflow-hidden" id="about">
             <div class="row">
                 <div class="col-xl-5 col-lg-5" data-aos="fade-right" data-aos-delay="50">
                     <div class="d-flex align-items-center gap-3 mb-3">
@@ -247,7 +247,7 @@ if (session_status() == PHP_SESSION_NONE) {
                         <img width="80" src="assets/img/star.png" alt="who we are image" class="img-fluid rounded-custom" />
                     </div>
                     <div class="position-absolute" style="bottom: 0;">
-                        <img src="assets/img/who_we_are_img2.jpg" alt="who we are image" class="img-fluid rounded-custom" />
+                        <img src="assets/img/who_we_are_img2.jpg" alt="who we are image" class="img-fluid rounded-custom who_we_are_img2" />
                     </div>
 
                 </div>
@@ -343,26 +343,30 @@ if (session_status() == PHP_SESSION_NONE) {
         <!-- Our Impact Section -->
         <section class="our_impact_section container">
             <div class="row justify-content-center">
-                <div class="col-lg-4 left_content" data-aos="fade-right">
 
-                    <!-- 1st Card -->
-                    <div class="card">
-                        <img width="50" height="50" src="assets/img/business_growth_icon.png" alt="Our Impact Image" class="img-fluid" />
-                        <div class="text_content">
-                            <h3 class="card_title">Business Growth</h3>
-                            <p>Helping businesses expand their reach, improve performance, and achieve consistent growth through smart digital solutions.</p>
-                        </div>
-                        <h1 class="stats">+120%</h1>
-                    </div>
 
-                    <!-- 2nd Card -->
-                    <div class="card">
-                        <img width="50" height="50" src="assets/img/faster_operations.png" alt="Our Impact Image" class="img-fluid" />
-                        <div class="text_content">
-                            <h3 class="card_title">Faster Operations</h3>
-                            <p>Streamlining workflows and processes to reduce delays and improve overall operational efficiency.</p>
+                <div class="col-lg-4 overflow-hidden">
+                    <div class="left_content" data-aos="fade-right">
+
+                        <!-- 1st Card -->
+                        <div class="card">
+                            <img width="50" height="50" src="assets/img/business_growth_icon.png" alt="Our Impact Image" class="img-fluid" />
+                            <div class="text_content">
+                                <h3 class="card_title">Business Growth</h3>
+                                <p>Helping businesses expand their reach, improve performance, and achieve consistent growth through smart digital solutions.</p>
+                            </div>
+                            <h1 class="stats">+120%</h1>
                         </div>
-                        <h1 class="stats">2.5x</h1>
+
+                        <!-- 2nd Card -->
+                        <div class="card">
+                            <img width="50" height="50" src="assets/img/faster_operations.png" alt="Our Impact Image" class="img-fluid" />
+                            <div class="text_content">
+                                <h3 class="card_title">Faster Operations</h3>
+                                <p>Streamlining workflows and processes to reduce delays and improve overall operational efficiency.</p>
+                            </div>
+                            <h1 class="stats">2.5x</h1>
+                        </div>
                     </div>
                 </div>
 
@@ -375,36 +379,38 @@ if (session_status() == PHP_SESSION_NONE) {
                     <p class="section_description text-center mt-3 mb-0">We deliver measurable results that help businesses grow, scale, and operate more efficiently.</p>
                 </div>
 
-                <div class="col-lg-4 right_content" data-aos="fade-left">
+                <div class="col-lg-4 overflow-hidden">
+                    <div class="right_content" data-aos="fade-left">
 
-                    <!-- 3rd Card -->
-                    <div class="card">
-                        <img width="50" height="50" src="assets/img/user_engagement.png" alt="Our Impact Image" class="img-fluid" />
-                        <div class="text_content">
-                            <h3 class="card_title">User Engagement</h3>
-                            <p>Improving user interaction and engagement through optimized systems and better experience design.</p>
+                        <!-- 3rd Card -->
+                        <div class="card">
+                            <img width="50" height="50" src="assets/img/user_engagement.png" alt="Our Impact Image" class="img-fluid" />
+                            <div class="text_content">
+                                <h3 class="card_title">User Engagement</h3>
+                                <p>Improving user interaction and engagement through optimized systems and better experience design.</p>
+                            </div>
+                            <h1 class="stats">+85%</h1>
                         </div>
-                        <h1 class="stats">+85%</h1>
-                    </div>
 
 
-                    <!-- 4th Card -->
-                    <div class="card">
-                        <img width="50" height="50" src="assets/img/data_accuracy.png" alt="Our Impact Image" class="img-fluid" />
-                        <div class="text_content">
-                            <h3 class="card_title">Data Accuracy</h3>
-                            <p>Ensuring reliable and precise data handling for better decision-making and business control.</p>
+                        <!-- 4th Card -->
+                        <div class="card">
+                            <img width="50" height="50" src="assets/img/data_accuracy.png" alt="Our Impact Image" class="img-fluid" />
+                            <div class="text_content">
+                                <h3 class="card_title">Data Accuracy</h3>
+                                <p>Ensuring reliable and precise data handling for better decision-making and business control.</p>
+                            </div>
+                            <h1 class="stats">99.9%</h1>
                         </div>
-                        <h1 class="stats">99.9%</h1>
-                    </div>
 
+                    </div>
                 </div>
 
             </div>
         </section>
 
         <!-- Our Work Section -->
-        <section class="our_work_section container ms-auto">
+        <section class="our_work_section container ms-auto overflow-hidden">
             <div class="container text_content">
                 <div class="d-flex justify-content-start align-items-center gap-3 mb-3">
                     <div class="section-subtitle-icon"></div>
@@ -527,7 +533,7 @@ if (session_status() == PHP_SESSION_NONE) {
         </section>
 
         <!-- Testimonial Section -->
-        <section class="testimonial_section container">
+        <section class="testimonial_section container overflow-hidden">
             <div class="d-flex align-items-center gap-3 mb-3" data-aos="fade-up">
                 <div class="section-subtitle-icon"></div>
                 <p class="mb-0 section-subtitle">Client Testimonials</p>
@@ -652,7 +658,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         <!-- Contact Section -->
         <!--contact us form start-->
-        <section class="contact-us-form pt-60 pb-120 contact_form" id="contact">
+        <section class="contact-us-form pt-60 pb-120 contact_form overflow-hidden" id="contact">
             <div class="container">
                 <div class="row justify-content-lg-between align-items-center">
                     <div class="col-lg-6 col-md-8">

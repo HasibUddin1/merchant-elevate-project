@@ -103,6 +103,10 @@
   z-index: 3;
 }
 
+.hero-section .hero-subscribe-form-wrap{
+  padding-top: 80px;
+}
+
 /* ********************** */
 /* Address Auto complete */
 /* ********************** */
@@ -590,6 +594,7 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .services-section .tags_container .tag {
@@ -880,7 +885,6 @@
 }
 
 @media (min-width: 992px) {
-
   /* Marquee Section */
   .marquee-section .item {
     font-size: 32px;
@@ -917,6 +921,9 @@
 
   .services-section .card_title {
     font-size: 32px;
+  }
+  .services-section .tags_container {
+    justify-content: start;
   }
 
   /* Contact Form Section */
@@ -958,11 +965,36 @@
   .our_work_section .work_card {
     min-width: 50%;
   }
+
+  /* Who We Are Section */
+  .who_we_are_section .circle-box {
+    display: none;
+  }
+
+  .who_we_are_section .rotate-star {
+    display: none;
+  }
+
+  .who_we_are_section .who_we_are_img2{
+    display: none;
+  }
+
+  /* Contact Section */
+  .contact_form .image_container{
+    margin-top: 30px;
+    padding-left: 12px;
+  }
 }
 
 /* Mobile (1 item) */
 @media (max-width: 767px) {
   .our_work_section .work_card {
     min-width: 100%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .who_we_are_section .circle-box {
+    inset: 30px 0px auto auto;
   }
 }
