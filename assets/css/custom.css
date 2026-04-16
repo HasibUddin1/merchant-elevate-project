@@ -369,8 +369,7 @@
 }
 
 /* Items */
-.item {
-  font-size: 32px;
+.marquee-section .item {
   font-weight: bold;
   color: black;
   letter-spacing: 0.5px;
@@ -881,6 +880,12 @@
 }
 
 @media (min-width: 992px) {
+
+  /* Marquee Section */
+  .marquee-section .item {
+    font-size: 32px;
+  }
+
   /* Who Are We Section */
   .who_we_are_heading {
     font-size: 54px;

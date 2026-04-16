@@ -541,7 +541,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
                 <!-- Card 1 -->
                 <div class="col-lg-4 p-3">
-                    <div class="card first_card">
+                    <div class="card first_card" data-aos="fade-up">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <div class="img_container">
                                 <img src="assets/img/client1.png" alt="Alex Morgan">
@@ -557,7 +557,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
                     </div>
 
-                    <div class="card">
+                    <div class="card" data-aos="fade-up">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <div class="img_container">
                                 <img src="assets/img/client4.png" alt="David Brown">
@@ -576,7 +576,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
                 <!-- Card 2 -->
                 <div class="col-lg-4 p-3">
-                    <div class="card first_card">
+                    <div class="card first_card" data-aos="fade-up">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <div class="img_container">
                                 <img src="assets/img/client2.png" alt="James Carter">
@@ -592,7 +592,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
                     </div>
 
-                    <div class="card">
+                    <div class="card" data-aos="fade-up">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <div class="img_container">
                                 <img src="assets/img/client5.png" alt="Emily Stone">
@@ -611,7 +611,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
                 <!-- Card 3 -->
                 <div class="col-lg-4 p-3">
-                    <div class="card first_card">
+                    <div class="card first_card" data-aos="fade-up">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <div class="img_container">
                                 <img src="assets/img/client3.png" alt="Sarah Wilson">
@@ -627,7 +627,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
                     </div>
 
-                    <div class="card">
+                    <div class="card" data-aos="fade-up">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <div class="img_container">
                                 <img src="assets/img/client6.png" alt="Michael Reed">
