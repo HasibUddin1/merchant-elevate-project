@@ -39,10 +39,7 @@ include 'core/oauth2callback.php';
     <div class="user-pages login-page">
 
         <!--register section start-->
-        <section class="sign-up-in-section bg-dark ptb-60" style="
-          background: url('assets/img/page-header-bg.svg') no-repeat right
-            bottom;
-        ">
+        <section class="sign-up-in-section bg-dark ptb-60">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-5 col-md-8 col-12">

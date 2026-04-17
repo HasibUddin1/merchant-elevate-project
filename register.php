@@ -76,7 +76,7 @@ include 'core/oauth2callback.php';
                                                 </blockquote>
                                                 <div class="author-info mt-4">
                                                     <h6 class="mb-0">Liam Campbell</h6>
-                                                    <span>Ecom Client</span>
+                                                    <span>Merchant Elevate Client</span>
                                                 </div>
                                             </div>
                                         </div>
