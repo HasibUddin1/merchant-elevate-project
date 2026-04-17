@@ -37,18 +37,28 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                 <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
                     <?php if (isset($_SESSION['user_id']) && $_SESSION["user_email"] != "admin@merchantelevate.com") {
                     ?>
-                        <a href="dashboard/index" class="btn site_btn_color text-decoration-none me-2">Dashboard</a>
+                        <a href="dashboard/index" class="btn site_btn_color text-decoration-none me-2">
+                            <span class="text-wrap">
+                                <span>Dashboard</span>
+                                <span>Dashboard</span>
+                            </span>
+                        </a>
                     <?php } else if (isset($_SESSION['user_id']) && $_SESSION["user_email"] === "admin@merchantelevate.com") { ?>
-                        <a href="superadmin/index" class="btn site_btn_color text-decoration-none me-2">Admin Dashboard</a>
+                        <a href="superadmin/index" class="btn site_btn_color text-decoration-none me-2">
+                            <span class="text-wrap">
+                                <span>Admin Dashboard</span>
+                                <span>Admin Dashboard</span>
+                            </span>
+                        </a>
                     <?php } else { ?>
-                        
+                        <a href="login" class="btn site_btn_color">
+                            <span class="text-wrap">
+                                <span>Get Started</span>
+                                <span>Get Started</span>
+                            </span>
+                        </a>
                     <?php } ?>
-                    <a href="login" class="btn site_btn_color">
-                        <span class="text-wrap">
-                            <span>Get Started</span>
-                            <span>Get Started</span>
-                        </span>
-                    </a>
+
                 </div>
             </div>
         </nav>
@@ -74,9 +84,9 @@ $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], 
                     ?>
                         <a href="dashboard/index" class="btn btn-outline-primary me-2">Dashboard</a>
                     <?php } else { ?>
-                        
+                        <a href="login" class="btn site_btn_color">Get Started</a>
                     <?php } ?>
-                    <a href="login" class="btn site_btn_color">Get Started</a>
+
                 </div>
             </div>
         </div>
