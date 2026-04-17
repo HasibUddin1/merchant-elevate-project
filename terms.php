@@ -50,7 +50,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 <p>Welcome to Merchant Elevate!</p>
 
-<p>These terms and conditions outline the rules and regulations for the use of Merchant Elevate's Website, located at https://ecomsaleshub.com/.</p>
+<p>These terms and conditions outline the rules and regulations for the use of Merchant Elevate's Website, located at https://merchantelevate.com/.</p>
 
 <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Merchant Elevate if you do not agree to take all of the terms and conditions stated on this page.</p>
 
