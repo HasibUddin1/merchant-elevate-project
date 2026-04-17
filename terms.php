@@ -34,7 +34,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <h1 class="display-5 fw-bold">Terms and Condition</h1>
+                        <h1 class="display-5 fw-bold">Terms and Conditions</h1>
                     </div>
                 </div>
                 <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
